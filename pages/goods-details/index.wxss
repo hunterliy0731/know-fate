@@ -83,14 +83,15 @@ swiper-item image {
 
 .goods-title {
 	font-size: 34rpx;
+	font-weight: 800;
 	color: #333;
-	padding-left: 30rpx;
+	padding-left: 35rpx;
 }
 
 .goods-characteristic {
-	font-size: 28rpx;
+	font-size: 25rpx;
 	color: #999;
-	padding-left: 30rpx;
+	padding-left: 35rpx;
 	padding-top: 10rpx;
 	padding-bottom: 10rpx;
 }
@@ -229,9 +230,10 @@ swiper-item image {
 }
 
 .goods-price {
-	padding-left: 30rpx;
-	color: #b5272d;
-	font-size: 40rpx;
+	padding-left: 35rpx;
+	color: #fc464a;
+	font-size: 50rpx;
+	font-weight: 800;
 	padding-top: 10rpx;
 	display: inline-block;
 }

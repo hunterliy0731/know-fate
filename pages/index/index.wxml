@@ -85,18 +85,18 @@
 	</scroll-view>
 </view> -->
 <view wx:if="{{goodsRecommend.length > 0}}" class="goods-container">
-	<view class="goods-title bg-olive light" style="margin-bottom: 30rpx;">
+	<!-- <view class="goods-title bg-olive light" style="margin-bottom: 30rpx;">
 		<view class="line"></view>
 		<view class="text">{{recommendGoodsTitle}}</view>
 		<view class="line"></view>
-	</view>
+	</view> -->
 	<view class="goods-list flex justify-between padding-top padding-lr flex-wrap" >
 		<navigator url="/pages/goods-details/index?id={{item.id}}" class="list-item" wx:for="{{goodsRecommend}}" wx:key="id">
 			<image src="{{item.pic}}" mode="aspectFill"></image>
 			<view class="goods-list-title">{{item.name}}</view>
-			<view class="goods-list-text">{{item.characteristic}}</view>
+			<!-- <view class="goods-list-text">{{item.characteristic}}</view> -->
 			<view class="goods-list-money">Ұ{{item.minPrice}}</view>
 		</navigator>
 	</view>
 </view>
-<view class="cu-load bg-gray {{loadingMoreHidden?'loading':'over'}}"></view>
+<!-- <view class="cu-load bg-gray {{loadingMoreHidden?'loading':'over'}}"></view> -->

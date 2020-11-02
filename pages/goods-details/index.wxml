@@ -14,19 +14,19 @@
 	<view class="goods-info">
 		<view class="goods-left">
 			<view class="goods-title">{{goodsDetail.basicInfo.name}}</view>
-			<view class="goods-characteristic">
+			<!-- <view class="goods-characteristic">
 				<text> {{goodsDetail.basicInfo.characteristic}} </text>
 				<block wx:if="{{goodsDetail.basicInfo.weight != 0}}">
 				    <text> \t {{goodsDetail.basicInfo.weight}}千克 </text>
 				</block>
-			</view>
+			</view> -->
 		</view>
 		<block wx:if="{{goodsDetail.basicInfo.pingtuan == false}}">
 			<view class="goods-price">¥ {{selectSizePrice}}</view>
-			<view class="goods-originalPrice">¥ {{goodsDetail.basicInfo.originalPrice}}</view>
-			<view class="piangjia">
+			<view class="goods-originalPrice">价格 ¥ {{goodsDetail.basicInfo.originalPrice}}</view>
+			<!-- <view class="piangjia">
 				已售 {{goodsDetail.basicInfo.numberOrders}}
-			</view>
+			</view> -->
 		</block>
 	</view>
 	<block wx:if="{{curGoodsKanjia}}">
