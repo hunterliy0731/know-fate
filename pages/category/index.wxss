@@ -63,7 +63,7 @@ page {
   float: right;
   font-size: 30rpx;
   line-height: 60rpx;
-  color: #b5272d;
+  color: #fc464a;
   margin-right: 46rpx;
 }
 
@@ -309,7 +309,7 @@ page {
 }
 
 .goods-price {
-  color: #b5272d;
+  color: #fc464a;
   font-size: 28rpx;
   text-align: left;
   width: 100%;

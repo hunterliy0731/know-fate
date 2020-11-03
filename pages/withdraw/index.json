@@ -1,7 +1,7 @@
 {
 	"navigationBarTitleText": "我要提现",
 	"navigationBarTextStyle": "white",
-	"navigationBarBackgroundColor":"#b5272d",
+	"navigationBarBackgroundColor":"#fc464a",
 	"usingComponents": {
 		"auth": "/components/auth/auth"
 	}

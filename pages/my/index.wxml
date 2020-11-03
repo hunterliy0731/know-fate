@@ -36,7 +36,7 @@
 					{{noplay}}
 				</view>
 			</view>
-			<text>待付款</text>
+			<text style="color: #111111">待付款</text>
 		</view>
 		<view class="cu-item" data-url="/pages/order-list/index?type=1" bindtap="navigateToPage">
 			<view class="cuIcon-send text-gray text-xxl">
@@ -44,7 +44,7 @@
 					{{notransfer}}
 				</view>
 			</view>
-			<text>待发货</text>
+			<text style="color: #111111">待发货</text>
 		</view>
 		<view class="cu-item" data-url="/pages/order-list/index?type=2" bindtap="navigateToPage">
 			<view class="cuIcon-deliver text-gray text-xxl">
@@ -52,7 +52,7 @@
 					{{noconfirm}}
 				</view>
 			</view>
-			<text>待收货</text>
+			<text style="color: #111111">待收货</text>
 		</view>
 		<view class="cu-item" data-url="/pages/order-list/index?type=3" bindtap="navigateToPage">
 			<view class="cuIcon-evaluate text-gray text-xxl">
@@ -60,16 +60,16 @@
 					{{noreputation}}
 				</view>
 			</view>
-			<text>待评价</text>
+			<text style="color: #111111">待评价</text>
 		</view>
-	<!-- <view class="cu-item" data-url="/pages/order-list/index?type=99" bindtap="navigateToPage">
+	<view class="cu-item" data-url="/pages/order-list/index?type=99" bindtap="navigateToPage">
 			<view class="cuIcon-friendfavor text-gray text-xxl">
 				 <view class="cu-tag badge" wx:if="{{noplay}}">
 					{{noplay}}
 				</view>
 			</view>
-			<text>售后</text>
-		</view> -->
+			<text style="color: #111111">售后</text>
+		</view>
 	</view>
 	<view class="cu-bar" style="width: 100%;">
 		<view class="action">
@@ -164,9 +164,6 @@
 			<text>联系客服</text>
 			<button class="contact" open-type="contact"></button>
 		</view>
-	</view>
-	<view class="padding text-center text-sm text-gray">
-		fire-shop-lite {{version}}@染火科技
 	</view>
 </view>
 <auth is-hidden="{{wxlogin}}" bind:afterAuth="afterAuth"></auth>

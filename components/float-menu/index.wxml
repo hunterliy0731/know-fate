@@ -20,10 +20,10 @@
     </view>
   </navigator>
   <navigator url="/pages/category/category" open-type="switchTab">
-    <view class="item">
+    <!-- <view class="item">
       <image src="/images/nav/ic_catefory_normal.png"></image>
       <text>分类</text>
-    </view>
+    </view> -->
   </navigator>
   <navigator url="/pages/shop-cart/index" open-type="switchTab">
     <view class="item">

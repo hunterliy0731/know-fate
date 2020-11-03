@@ -180,6 +180,10 @@ page {
   opacity: 0;
 }
 
+.text-grey{
+  color: #111111;
+}
+
 .userinfo-info {
   font-size: 26rpx;
   color: #999;
